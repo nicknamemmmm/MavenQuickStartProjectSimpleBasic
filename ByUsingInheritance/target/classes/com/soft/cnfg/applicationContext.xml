@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+   
+ 
+ <bean id="mobile" class="com.soft.beans.Mobile">
+ <property name="mobileNo" value="1011"/>
+ <property name="mobModel" value="mi"/>
+ <property name="mobPrice" value="90000"/>
+ <property name="color" value="red"/>
+ </bean>
+   
+<bean id="m2" class="com.soft.beans.Mobile">
+ <property name="mobileNo" value="1211"/>
+</bean>
+ </beans>
